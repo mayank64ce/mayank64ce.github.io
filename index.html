@@ -28,7 +28,7 @@
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
                         <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#signup">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact-Email">Contact</a></li>
                         <li class="nav-item"><a class="nav-link" href="https://drive.google.com/file/d/1VxpoAoZIGTdIMgqFPBCCh_U4cK_Ea35n/view">CV</a></li>
                     </ul>
                 </div>
@@ -52,11 +52,9 @@
             <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-lg-8">
-                        <h2 class="text-white mb-4">Built with Bootstrap 5</h2>
+                        <h2 class="text-white mb-4">About Me</h2>
                         <p class="text-white-50">
-                            Grayscale is a free Bootstrap theme created by Start Bootstrap. It can be yours right now, simply download the template on
-                            <a href="https://startbootstrap.com/theme/grayscale/">the preview page.</a>
-                            The theme is open source, and you can use it for any purpose, personal or commercial.
+                            I am a Junior Year Undergrad at <a href = "https://www.iitp.ac.in">IIT Patna</a>, India majoring in Electrical and Electronics Engineering. I have keen interest in applications of Machine Learning in the field of Computer Vision.
                         </p>
                     </div>
                 </div>
@@ -65,27 +63,38 @@
         </section>
 
         <!-- Projects-->
-        <section class="projects-section bg-black" id="projects">
+        <section class="projects-section bg-black text-center" id="projects">
+            <div class="container px-4 px-lg-5">
+                <div class="col-lg-8">
+                    <h2 style="text-align:center;" class="text-white mb-4">Projects</h2>
+                    <!-- <p class="text-white-50">
+                        I am a Junior Year Undergrad at <a href = "https://www.iitp.ac.in">IIT Patna</a>, India majoring in Electrical and Electronics Engineering. I have keen interest in applications of Machine Learning in the field of Computer Vision.
+                    </p>
+                     -->
+                </div>
+            </div>
             <div class="container px-4 px-lg-5">
                 <!-- Featured Project Row-->
                 <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
-                    <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="assets/img/night_city.jpg" alt="..." /></div>
+                    <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="assets/img/music-genre-classifier.png" alt="..." /></div>
                     <div class="col-xl-4 col-lg-5">
                         <div class="featured-text text-center text-lg-left">
-                            <h4 class="text-white">Shoreline</h4>
-                            <p class="text-white-50 mb-0">Grayscale is open source and MIT licensed. This means you can use it for any project - even commercial projects! Download it, customize it, and publish your website!</p>
+                            <h4 class="text-white"><a href = "https://github.com/mayank64ce/Music-Genre-Classifier">Music Genre Classifier</a></h4>
+                            <p class="text-white-50 mb-0">3 ML models based on Vanilla Multilayer Perceptron, CNN, RNN-LSTM to classify song snippets into 10 genres.
+
+                                This project uses the MARSYAS GTZAN which can be found <a href = "https://www.kaggle.com/andradaolteanu/gtzan-dataset-music-genre-classification">here</a>.</p>
                         </div>
                     </div>
                 </div>
                 <!-- Project One Row-->
                 <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
-                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/valley1.jpg" alt="..." /></div>
+                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/flask-notes.png" alt="..." /></div>
                     <div class="col-lg-6">
                         <div class="bg-black text-center h-100 project">
                             <div class="d-flex h-100">
                                 <div class="project-text w-100 my-auto text-center text-lg-left">
-                                    <h4 class="text-white">Misty</h4>
-                                    <p class="mb-0 text-white-50">An example of where you can put an image of a project, or anything else, along with a description.</p>
+                                    <h4 class="text-white"><a href = "https://appnotemy.herokuapp.com/">FLASK Notes WebApp</a></h4>
+                                    <p class="mb-0 text-white-50">A simple Online Notes app, with login, sign-up and CRUD capabilities.</p>
                                     <hr class="d-none d-lg-block mb-0 ms-0" />
                                 </div>
                             </div>
@@ -93,7 +102,7 @@
                     </div>
                 </div>
                 <!-- Project Two Row-->
-                <div class="row gx-0 justify-content-center">
+                <!-- <div class="row gx-0 justify-content-center">
                     <div class="col-lg-6"><img class="img-fluid" src="assets/img/tron_city.jpg" alt="..." /></div>
                     <div class="col-lg-6 order-lg-first">
                         <div class="bg-black text-center h-100 project">
@@ -106,23 +115,35 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
         </section>
-         <!-- Signup-->
-         <section class="signup-section" id="signup">
-            <div class="container px-4 px-lg-5">
-                <div class="row gx-4 gx-lg-5">
-                    <div class="col-md-10 col-lg-8 mx-auto text-center">
-                        <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
-                        <h2 class="text-white mb-5">Subscribe to receive updates!</h2>
-                        <form class="form-signup d-flex flex-column flex-sm-row">
-                            <input class="form-control flex-fill me-0 me-sm-2 mb-3 mb-sm-0" id="inputEmail" type="email" placeholder="Enter email address..." />
-                            <button class="btn btn-primary" type="submit">Subscribe</button>
-                        </form>
+         <!-- Contact Email-->
+        <section class="contact-Email" id="contact-Email">
+            <div class="contact-container">
+                <form action="https://formsubmit.co/mayank.kumar2061@gmail.com" method="post">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type = "text" id = "name" name = "name" placeholder="John Doe" required>
                     </div>
-                </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type = "text" id = "email" name = "email" placeholder="johndoe@email.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" name="_subject" placeholder = "Hi!">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea name = "message" id = "message" cols="30" rows = "10" placeholder="Enter Message Here..."></textarea>
+                    </div>
+                    <button class="btn btn-primary" type = "submit">Submit</button>
+                </form>
             </div>
+            <!-- <div id="status" class="success">
+                Success!
+            </div> -->
         </section>
         <!-- Contact-->
         <section class="contact-section bg-black">
@@ -134,7 +155,7 @@
                                 <i class="fas fa-map-marked-alt text-primary mb-2"></i>
                                 <h4 class="text-uppercase m-0">Address</h4>
                                 <hr class="my-4 mx-auto" />
-                                <div class="small text-black-50">4923 Market Street, Orlando FL</div>
+                                <div class="small text-black-50">Uniworld Garden 2, Malibu Road, Gurugram - HARYANA</div>
                             </div>
                         </div>
                     </div>
@@ -154,15 +175,15 @@
                                 <i class="fas fa-mobile-alt text-primary mb-2"></i>
                                 <h4 class="text-uppercase m-0">Phone</h4>
                                 <hr class="my-4 mx-auto" />
-                                <div class="small text-black-50">+1 (555) 902-8832</div>
+                                <div class="small text-black-50">+91 826000-2910</div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="social d-flex justify-content-center">
-                    <a class="mx-2" href="#!"><i class="fab fa-twitter"></i></a>
-                    <a class="mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
-                    <a class="mx-2" href="#!"><i class="fab fa-github"></i></a>
+                    <a class="mx-2" href="https://www.linkedin.com/in/mayank-kumar64/"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+                    <a class="mx-2" href="https://www.facebook.com/profile.php?id=100040189877331"><i class="fab fa-facebook-f"></i></a>
+                    <a class="mx-2" href="https://github.com/mayank64ce"><i class="fab fa-github"></i></a>
                 </div>
             </div>
         </section>
