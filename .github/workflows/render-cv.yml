@@ -1,14 +1,8 @@
 name: Render a CV
 on:
-  push:
-    branches:
-      - main
-      - master
-    paths:
-      - "_data/cv.yml"
-      - "assets/rendercv/design.yaml"
-      - "assets/rendercv/locale.yaml"
-      - "assets/rendercv/settings.yaml"
+  # Automatic runs on push are disabled: RenderCV v2.8 rejects the label, image,
+  # summary and address fields in _data/cv.yml that the website CV page uses.
+  # The CV page links to assets/pdf/main_resume.pdf instead.
   workflow_call:
   workflow_dispatch:
 permissions:

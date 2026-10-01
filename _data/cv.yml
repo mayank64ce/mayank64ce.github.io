@@ -97,23 +97,33 @@ cv:
 
     Awards:
       - title: ICLR Student Travel Award
+        authors:
+          - "ICLR Conference Organizers"
         date: 2026
         awarder: ICLR Conference Organizers
 
       - title: Presentation Fellowship
+        authors:
+          - "University of Central Florida"
         date: 2026
         awarder: University of Central Florida
 
       - title: ORCGS Doctoral Fellowship
+        authors:
+          - "University of Central Florida"
         date: 2023
         awarder: University of Central Florida
 
       - title: Ranked 8804th in JEE-Advanced 2019
+        authors:
+          - "Indian Institutes of Technology"
         date: 2019
         awarder: Indian Institutes of Technology
         summary: Ranked 8804th among over 150 thousand candidates.
 
       - title: Regional Mathematical Olympiad 2017 (Top 30), Gujarat State
+        authors:
+          - "Homi Bhabha Centre for Science Education (HBCSE)"
         date: 2017
         awarder: Homi Bhabha Centre for Science Education (HBCSE)
 
